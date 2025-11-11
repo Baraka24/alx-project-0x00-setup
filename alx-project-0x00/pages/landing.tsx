@@ -7,7 +7,11 @@ const Landing: React.FC =  () => {
       <h1 className=" text-xl font-extralight">Landing Page</h1>
       <Card />
       <br />
-      <Button title="Click me" size="medium" shape="rounded-md" className="" />
+      <div className="flex flex-wrap gap-4">
+        <Button title="Rounded SM" size="medium" shape="rounded-sm" className="bg-white text-black border border-gray-300" />
+        <Button title="Rounded MD" size="medium" shape="rounded-md" className="bg-white text-black border border-gray-300" />
+        <Button title="Rounded Full" size="medium" shape="rounded-full" className="bg-white text-black border border-gray-300" />
+      </div>
     </div>
   )
 }
