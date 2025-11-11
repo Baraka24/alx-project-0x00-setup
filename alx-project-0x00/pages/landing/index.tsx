@@ -3,10 +3,11 @@ import Button from "@/components/Button"
 
 const LandingButtons: React.FC = () => {
   const sizes: Array<"small" | "medium" | "large"> = ["small", "medium", "large"]
-  const shapes: Array<"rounded-sm" | "rounded-md" | "rounded-full"> = [
+  const shapes: Array<"rounded-sm" | "rounded-md" | "rounded-full" | "rounded-lg"> = [
     "rounded-sm",
     "rounded-md",
     "rounded-full",
+    "rounded-lg",
   ]
 
   return (

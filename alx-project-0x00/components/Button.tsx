@@ -19,6 +19,7 @@ const Button: React.FC<ButtonProps & React.ButtonHTMLAttributes<HTMLButtonElemen
     "rounded-sm": "rounded-sm",
     "rounded-md": "rounded-md",
     "rounded-full": "rounded-full",
+    "rounded-lg": "rounded-lg",
   }
 
   return (
