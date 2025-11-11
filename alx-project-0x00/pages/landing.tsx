@@ -8,9 +8,9 @@ const Landing: React.FC =  () => {
       <Card />
       <br />
       <div className="flex flex-wrap gap-4">
-        <Button title="Rounded SM" size="medium" shape="rounded-sm" className="bg-white text-black border border-gray-300" />
-        <Button title="Rounded MD" size="medium" shape="rounded-md" className="bg-white text-black border border-gray-300" />
-        <Button title="Rounded Full" size="medium" shape="rounded-full" className="bg-white text-black border border-gray-300" />
+        <Button title="Rounded SM" size="medium" shape="rounded-sm" />
+        <Button title="Rounded MD" size="medium" shape="rounded-md" />
+        <Button title="Rounded Full" size="medium" shape="rounded-full" />
       </div>
     </div>
   )
